@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     <script src="script.js" defer></script>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      
+        <div class="display-game">
+          <div class = "contador-inicial" style="display:none" id="countdown"></div>
+          <button class="btn-diferente" onclick="clicks()" id = "boton-click" style = "display: none"> Click me! </button>
+        </div>
+
+        
+            <div class="opciones">
+              <button class="btn-dif" onclick="iniciar()" style="font-size:23px;" id="start-button"> Start </button>
+              <button class="btn-dif" onclick="backclick()" style="display:none" style="font-size:23px;" id="back-button" src="casita.png"> Back </button>
+              <div class="title" id="modeTitle"> Mode </div>
+              <button class="btn-dif" id="easy" onclick="easyMode()"> Easy </button>
+              <button class="btn-dif" id="med" onclick="medMode()"> Medium </button>
+              <button class="btn-dif" id="hard" onclick="hardMode()"> Hard </button>
+             
+              <div class="timer" id= "timer" style="display:none">
+                <div class="title" id="temp"> 00:00 </div>		   
+              <div class="title" id="puntos">  Score: 0 </div>
+              </div>
+              
+  
+            </div>
+              
+    </div>
+  </body>
+</html>
+
+       <!--  >
+             
+
+             
+  <-->
